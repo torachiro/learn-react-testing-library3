@@ -26,7 +26,7 @@ const TaskPage: React.FC<STATICPROPS> = ({ staticTasks }) => {
     fallbackData: staticTasks,
     revalidateOnMount: true,
   })
-  if (error) return <span>Error!</span>
+  if (error) return <span>Eror!</span>
   return (
     <Layout title="Todos">
       <p className="text-4xl mb-10">todos page</p>
